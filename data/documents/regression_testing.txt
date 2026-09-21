@@ -1,0 +1,9 @@
+Regression Testing
+
+Regression testing is the process of re-executing previously performed tests after software changes to verify that existing functionality has not been adversely affected.
+
+Regression testing is commonly performed after defect fixes, enhancements, configuration changes, and integration of new features.
+
+A regression test suite may contain functional, integration, API, and user interface tests. The selection of tests depends on the scope and impact of the software changes.
+
+Regression testing helps identify unintended side effects introduced by changes to the application.

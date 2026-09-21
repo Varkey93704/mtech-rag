@@ -1,2 +1,3 @@
 langchain==1.4.1
 langchain-ollama
+langchain-community
