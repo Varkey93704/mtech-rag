@@ -5,7 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
 # 1. Load the document
-file_path = "data/documents/regression_testing.txt"
+file_path = "data/documents/chunking_test.txt"
 
 with open(file_path, "r", encoding="utf-8") as file:
     text = file.read()
