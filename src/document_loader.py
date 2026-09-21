@@ -1,8 +1,16 @@
-from langchain_community.document_loaders import TextLoader
+from langchain_core.documents import Document
 
-loader = TextLoader("data/documents/regression_testing.txt")
+file_path = "data/documents/regression_testing.txt"
 
-documents = loader.load()
+with open(file_path, "r", encoding="utf-8") as file:
+    text = file.read()
+
+documents = [
+    Document(
+        page_content=text,
+        metadata={"source": file_path},
+    )
+]
 
 print(f"Number of documents: {len(documents)}")
 
