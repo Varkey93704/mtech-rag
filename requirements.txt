@@ -2,3 +2,5 @@ langchain==1.4.1
 langchain-ollama==1.1.0
 langchain-text-splitters==1.1.2
 tiktoken
+sentence-transformers==6.1.0
+chromadb==1.5.9
